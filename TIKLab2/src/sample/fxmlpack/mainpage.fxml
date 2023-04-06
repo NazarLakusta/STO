@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="482.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="167.0" layoutY="34.0" prefHeight="34.0" prefWidth="319.0" text="СТО &quot;ФОП Аджубей&quot;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="81.0" prefHeight="34.0" prefWidth="483.0" text="Радий вас вітати у програмі обробки замовлення">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="115.0" prefHeight="34.0" prefWidth="263.0" text="по ремонту вашого авто">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="183.0" prefHeight="34.0" prefWidth="134.0" text="Інструкція:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="214.0" prefHeight="34.0" prefWidth="319.0" text="1. Перейти на форму замовлення">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="248.0" prefHeight="34.0" prefWidth="319.0" text="2. Заповнити інформацію">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="282.0" prefHeight="34.0" prefWidth="503.0" text="3. Очікувати повідомлення про можливу наявність">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="316.0" prefHeight="34.0" prefWidth="503.0" text="технічних несправностей, та детальної інформації">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="350.0" prefHeight="34.0" prefWidth="503.0" text="по її вирішенні">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonToForm" layoutX="168.0" layoutY="398.0" mnemonicParsing="false" onAction="#btn_ToForm" prefHeight="42.0" prefWidth="263.0" text="Перехід на форму запису">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="elementfield" layoutX="207.0" layoutY="200.0" prefHeight="80.0" prefWidth="168.0">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <TextArea fx:id="freqfield" layoutX="477.0" layoutY="200.0" prefHeight="80.0" prefWidth="80.0" promptText="0" text="0">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <TextArea fx:id="probfield" layoutX="713.0" layoutY="200.0" prefHeight="80.0" prefWidth="80.0" promptText="0" text="0.0">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <Label layoutX="209.0" layoutY="156.0" text="Елемент">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="452.0" layoutY="144.0" text="Частота">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="713.0" layoutY="140.0" text="Ймовірність">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="941.0" layoutY="201.0" mnemonicParsing="false" onAction="#ButtonAdd" text="Додати в обєкт">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="494.0" layoutY="350.0" mnemonicParsing="false" onAction="#ButtonSave" text="Зберегти">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="516.0" layoutY="451.0" mnemonicParsing="false" onAction="#ButtonSort" text="Сортування">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="entroryfield" layoutX="905.0" layoutY="366.0" prefHeight="487.0" prefWidth="321.0">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <TextArea fx:id="objectfield" layoutX="18.0" layoutY="355.0" prefHeight="510.0" prefWidth="436.0">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <TextArea layoutX="584.0" layoutY="575.0" prefHeight="25.0" prefWidth="200.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

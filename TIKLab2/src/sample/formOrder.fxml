@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="482.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FormOrderController">
+   <children>
+      <Label layoutX="155.0" layoutY="34.0" prefHeight="36.0" prefWidth="438.0" text="Форма заявки на технічниий огляд">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="80.0" prefHeight="36.0" prefWidth="136.0" text="Прізвище">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="142.0" prefHeight="36.0" prefWidth="136.0" text="Ім'я">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="204.0" prefHeight="36.0" prefWidth="161.0" text="Номер телефону">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="270.0" prefHeight="36.0" prefWidth="226.0" text="Проблему яку ви замітили">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surnameText" layoutX="34.0" layoutY="116.0" />
+      <TextField fx:id="nameText" layoutX="34.0" layoutY="178.0" />
+      <TextField fx:id="numberPhoneText" layoutX="34.0" layoutY="233.0" />
+      <TextArea fx:id="problemText" layoutX="34.0" layoutY="306.0" prefHeight="88.0" prefWidth="200.0" />
+      <ImageView fitHeight="263.0" fitWidth="376.0" layoutX="286.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../ChromeDownload/6-1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="confirmOrder" layoutX="42.0" layoutY="401.0" mnemonicParsing="false" onAction="#btn_confirm" prefHeight="36.0" prefWidth="170.0" text="Відправити заявку">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

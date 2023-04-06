@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EmployerController">
+   <children>
+      <Label layoutX="221.0" layoutY="24.0" prefHeight="18.0" prefWidth="253.0" text="Форма працівника">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="70.0" prefHeight="32.0" prefWidth="334.0" text="Проблема яку виявила людина">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="problemClient" layoutX="48.0" layoutY="206.0" prefHeight="166.0" prefWidth="504.0" />
+      <Label fx:id="problemFromClient" layoutX="31.0" layoutY="117.0" prefHeight="32.0" prefWidth="334.0" text="Проблема">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
